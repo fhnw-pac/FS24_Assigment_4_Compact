@@ -104,7 +104,7 @@ int main(void)
 	// Make things easy, so use a same sized output buffer
 	int* hostOutput_CPU = new int[size];
 	int found_primes = compact_prime(hostVector, hostOutput_CPU, size);
-	cout << "Found " << found_primes << "prime numbers." << endl;
+	cout << "Found " << found_primes << " prime numbers." << endl;
 
 	// ToDo: Implement compact pattern on GPU, you can use var found_primes
 	// to allocate the right size or to only loop/check what is needed in 
